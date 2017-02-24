@@ -1,0 +1,22 @@
+{
+  "name": "vision-client",
+  "version": "0.0.0",
+  "description": "Vision dashboard v.2 client side.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josudeno/js-table.git"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "jasmine-core": "~2.4.1",
+    "karma": "~1.1.2",
+    "karma-jasmine": "~1.0.2",
+    "karma-chrome-launcher": "~1.0.1",
+    "karma-firefox-launcher": "~1.0.0"
+  }
+}

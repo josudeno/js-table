@@ -1,0 +1,18 @@
+{
+  "name": "table-renderer",
+  "authors": [
+    "Josue De Noia"
+  ],
+  "description": "Table renderer with pagination",
+  "main": "src/index.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "spec"
+  ],
+  "devDependencies": {
+    "jasmine": "2.4.1"
+  }
+}
