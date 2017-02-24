@@ -22,10 +22,13 @@ Run bower
     bower install
 
 Install karma
+
     npm install karma-cli
 
 Check karma is installed
+
     karma --version
 
 Run tests
+
     karma run
