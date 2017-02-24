@@ -1,3 +1,5 @@
+var Util = Util || {};
+
 (function (Document, Util, Namespace) {
     'use strict';
 
@@ -46,4 +48,4 @@
         }
     };
 
-})(document, Util, Util.Namespace.create("Js.Util.Factory"));
+})(document, Util, Util.Namespace.create("Util.Factory"));

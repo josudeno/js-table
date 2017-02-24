@@ -19,7 +19,7 @@ var Util = Util || {};
 
             scope = scope || Global;
 
-            Util.TypeHelper.assertStringNotEmpty(namespace, 'namespace');
+            Util.TypeHelper.assertEmptyString(namespace, 'namespace');
             Util.TypeHelper.assertObject(scope, 'scope');
 
             parts   = namespace.trim().split('.');
@@ -41,4 +41,4 @@ var Util = Util || {};
             return scope;
         }
     };
-})(self, Util, Util.Namespace.create("Js.Util.Namespace"));
+})(self, Util, Util);

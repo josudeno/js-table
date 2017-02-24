@@ -183,4 +183,4 @@
         getRows: Namespace.getRows
     };
 
-})(document, Util, Util.Namespace.create("Js.Table"));
+})(document, Util, Util.Namespace.create("Table"));

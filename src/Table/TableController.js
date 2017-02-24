@@ -19,8 +19,7 @@
             throw new ReferenceError('htmlHandler is not a valid html provider');
         }
 
-        
-            
+
         Util.TypeHelper.assertObject(options, "options");
         Util.TypeHelper.assertArray(rows, "rows");
 
@@ -185,6 +184,7 @@
                 this.rows = this.globalRows;
             }
             this.totalPages = Math.ceil(this.rows.length / this.itemsPerPage);
+            this.showPage(1);
         },
 
 
@@ -503,8 +503,8 @@
          * @returns {Element}
          */
         getElementByAttributeAndValue: function (attribute, value) {
-            this.assertString(attribute);
-            this.assertString(value);
+            Util.TypeHelper.assertString(attribute);
+            Util.TypeHelper.assertString(value);
             return Document.querySelector('*['+ attribute + '="' + value + '"]');
         },
 
@@ -516,4 +516,4 @@
         previousAction: Namespace.TableController.prev
     };
 
-})(document, Util, Util.Namespace.create("Js.Table"));
+})(document, Util, Util.Namespace.create("Table"));

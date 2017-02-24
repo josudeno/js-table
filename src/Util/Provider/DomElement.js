@@ -1,3 +1,5 @@
+var Util = Util || {};
+
 (function (Document, Namespace) {
     'use strict';
 
@@ -39,4 +41,4 @@
 
     };
 
-})(document, Util, Util.Namespace.create("Js.Util.Provider"));
+})(document, Util.Namespace.create("Util.Provider"));

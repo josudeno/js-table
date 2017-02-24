@@ -23,7 +23,7 @@
 		htmlFactory = new Util.Factory.HTMLElement();
 
 
-		tableRenderer = new Js.Table.Renderer(
+		tableRenderer = new Table.Renderer(
 			document.getElementById('myTable'),
 			{tableClass: 'dataTable', recordsToShow: 5},
 			htmlFactory
@@ -33,7 +33,7 @@
 
 		options = {itemsPerPage: 5};
 
-		tableController = new Js.Table.TableController(
+		tableController = new Table.TableController(
 			tableRenderer.getTable(),
 			tableRenderer.getRows(),
 			options,
