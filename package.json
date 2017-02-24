@@ -13,10 +13,12 @@
   "license": "UNLICENSED",
   "private": true,
   "devDependencies": {
+    "jasmine": "^2.5.3",
     "jasmine-core": "~2.4.1",
-    "karma": "~1.1.2",
-    "karma-jasmine": "~1.0.2",
+    "karma": "^1.1.2",
+    "karma-bower": "^1.0.1",
     "karma-chrome-launcher": "~1.0.1",
-    "karma-firefox-launcher": "~1.0.0"
+    "karma-firefox-launcher": "~1.0.0",
+    "karma-jasmine": "~1.0.2"
   }
 }
