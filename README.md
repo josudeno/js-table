@@ -13,7 +13,7 @@ The following files are a simple demo of how to utilize this table.
 Steps to set project up
 
 
-Install npm
+Install bower
 
     npm install bower
 
