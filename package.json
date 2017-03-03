@@ -20,5 +20,8 @@
     "karma-chrome-launcher": "~1.0.1",
     "karma-firefox-launcher": "~1.0.0",
     "karma-jasmine": "~1.0.2"
+  },
+  "dependencies": {
+    "js-utils": "ssh://git@github.com:josudeno/js-utils.git"
   }
 }
