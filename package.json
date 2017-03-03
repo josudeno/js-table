@@ -1,7 +1,7 @@
 {
-  "name": "vision-client",
+  "name": "js-table",
   "version": "0.0.0",
-  "description": "Vision dashboard v.2 client side.",
+  "description": "Javascript data table implementation",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/karma/bin/karma start --single-run"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/josudeno/js-table.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "jasmine": "^2.5.3",
